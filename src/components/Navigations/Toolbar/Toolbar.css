@@ -1,0 +1,30 @@
+.toolbar{
+    height: 56px;;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.toolbar nav{
+    height: 100%;
+}
+
+.toolbar .logo{
+    background-color: white;
+    padding: 8px;
+    height: 120%;
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+}
+
+.toolbar .logo img{
+    height: 100%;
+}

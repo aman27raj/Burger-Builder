@@ -1,0 +1,17 @@
+.sideDrawer{
+    background-color: blue;
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 83%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    box-sizing: border-box;
+}
+
+@media (min-width:500px){
+    .sideDrawer{
+        display: none;
+    }
+}
